@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+
+.footer{
+	width: 100vw;
+	display: block;
+	background-color: black;
+	overflow: hidden;
+	padding: 70px 0;
+	box-sizing: border-box;
+}
+
+
+.innerfooter{
+	display: block;
+	margin: 0 auto;
+	width: 1100px;
+	height: 100%;
+}
+
+.innerfooter .logo{
+	width: 35%;
+	float: left;
+	height: 100%;
+	display: block;
+}
+
+.innerfooter .sections{
+	width: calc(21.6666667% - 20px);
+	margin-right: 10px;
+	float: left;
+	height: 100%;
+}
+
+.innerfooter .sections:last-child{
+	margin-right: 0;
+}
+
+.innerfooter .sections h1{
+	font font-family: 'arial';
+	font-size: 22px;
+	color: white;
+	display: block;
+	width: 100%;
+	margin-bottom: 20px; 
+}
+
+.innerfooter .sections a{
+	font-family: 'arial';
+	font-size: 16px;
+	color: white;
+	font-weight: 200;
+	display: block;
+	width: 100%;
+	margin-bottom: 5px; 
+	text-decoration: none;
+}
+
+.innerfooter .sections li{
+	display: inline-flex;
+	padding-right: 10px;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.innerfooter .sections span{
+	color: white;
+	font-family: 'arial';
+	font-size: 16px;
+	font-weight: 200px;
+	display: block;
+	width: 100%;
+	padding-top: 20px;
+}

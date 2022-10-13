@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+
+
+.header{
+	width: 100%;
+	height: 60px;
+	background-color: black;
+	display: block;
+}
+
+.innerheader{
+	height: 100%;
+	width: 1000px;
+	background-color: black;
+	display: block;
+	margin: 0 auto;
+}
+
+
+.logo{
+	float: left;
+	height: 100%;
+	display: table;
+}
+
+.logo h1{
+	float: left;
+	height: 100%;
+	display: flex;
+	color: white;
+	font-family: serif;
+	font-size: 32px;
+	margin: 10px auto;
+}
+
+.logo h1 span{
+	font-weight: bolder;
+}
+
+
+.nav{
+	float: right;
+	height: 100%;
+}
+
+.nav a:left-child{
+	padding-right: 0; 
+}
+
+
+.nav a{
+	height: 100%;
+	display: table;
+	float: left;
+	padding: 0px 20px;
+	text-decoration: none;
+}
+
+.nav a:hover{
+	background-color: blue;
+}
+
+
+.nav a li{
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+	color: white;
+	font-family: 'Montserrat';
+	font-size: 20px;
+} 
